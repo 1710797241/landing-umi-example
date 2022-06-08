@@ -1,4 +1,17 @@
 import React from 'react';
+export const Banner00DataSource = {
+  wrapper: { className: 'banner0' },
+  textWrapper: { className: 'banner0-text-wrapper' },
+  title: {
+    className: 'banner0-title',
+    children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+  },
+  content: {
+    className: 'banner0-content',
+    children: '一个高效的页面动画解决方案',
+  },
+  button: { className: 'banner0-button', children: 'Learn More' },
+};
 export const Nav00DataSource = {
   wrapper: { className: 'header0 home-page-wrapper' },
   page: { className: 'home-page' },
@@ -96,19 +109,6 @@ export const Nav00DataSource = {
     ],
   },
   mobileMenu: { className: 'header0-mobile-menu' },
-};
-export const Banner00DataSource = {
-  wrapper: { className: 'banner0' },
-  textWrapper: { className: 'banner0-text-wrapper' },
-  title: {
-    className: 'banner0-title',
-    children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-  },
-  content: {
-    className: 'banner0-content',
-    children: '一个高效的页面动画解决方案',
-  },
-  button: { className: 'banner0-button', children: 'Learn More' },
 };
 export const Content00DataSource = {
   wrapper: { className: 'home-page-wrapper content0-wrapper' },
@@ -212,6 +212,33 @@ export const Content10DataSource = {
     className: 'content1-content',
     children:
       '云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。云资源集中编排、弹性伸缩、持续发布和部署，高可用及容灾。',
+  },
+};
+export const Content40DataSource = {
+  wrapper: { className: 'home-page-wrapper content4-wrapper' },
+  page: { className: 'home-page content4' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: '蚂蚁金融云提供专业的服务',
+        className: 'title-h1',
+      },
+      {
+        name: 'content',
+        className: 'title-content content4-title-content',
+        children: '科技想象力，金融创造力',
+      },
+    ],
+  },
+  video: {
+    className: 'content4-video',
+    children: {
+      video: 'https://os.alipayobjects.com/rmsportal/EejaUGsyExkXyXr.mp4',
+      image: 'https://zos.alipayobjects.com/rmsportal/HZgzhugQZkqUwBVeNyfz.jpg',
+    },
   },
 };
 export const Content30DataSource = {
@@ -359,7 +386,505 @@ export const Content30DataSource = {
     ],
   },
 };
-export const Footer01DataSource = {
+export const Teams40DataSource = {
+  wrapper: { className: 'home-page-wrapper content8-wrapper' },
+  page: { className: 'home-page content8' },
+  OverPack: { playScale: 0.3 },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'image',
+        children:
+          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
+        className: 'title-image',
+      },
+      { name: 'title', children: '特邀嘉宾', className: 'title-h1' },
+    ],
+  },
+  block: {
+    className: 'content-wrapper',
+    children: [
+      {
+        name: 'block0',
+        md: 6,
+        xs: 24,
+        className: 'content8-block-wrapper',
+        children: {
+          className: 'content8-block',
+          img: {
+            className: 'content8-img',
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+          },
+          title: { className: 'content8-title', children: 'Jack' },
+          content: {
+            className: 'content8-content',
+            children: '公司+职位 信息暂缺',
+          },
+        },
+      },
+      {
+        name: 'block1',
+        md: 6,
+        xs: 24,
+        className: 'content8-block-wrapper',
+        children: {
+          className: 'content8-block',
+          img: {
+            className: 'content8-img',
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+          },
+          title: { className: 'content8-title', children: 'Jack' },
+          content: {
+            className: 'content8-content',
+            children: '公司+职位 信息暂缺',
+          },
+        },
+      },
+      {
+        name: 'block2',
+        md: 6,
+        xs: 24,
+        className: 'content8-block-wrapper',
+        children: {
+          className: 'content8-block',
+          img: {
+            className: 'content8-img',
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+          },
+          title: { className: 'content8-title', children: 'Jack' },
+          content: {
+            className: 'content8-content',
+            children: '公司+职位 信息暂缺',
+          },
+        },
+      },
+      {
+        name: 'block3',
+        md: 6,
+        xs: 24,
+        className: 'content8-block-wrapper',
+        children: {
+          className: 'content8-block',
+          img: {
+            className: 'content8-img',
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+          },
+          title: { className: 'content8-title', children: 'Jack' },
+          content: {
+            className: 'content8-content',
+            children: '公司+职位 信息暂缺',
+          },
+        },
+      },
+      {
+        name: 'block4',
+        md: 6,
+        xs: 24,
+        className: 'content8-block-wrapper',
+        children: {
+          className: 'content8-block',
+          img: {
+            className: 'content8-img',
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+          },
+          title: { className: 'content8-title', children: 'Jack' },
+          content: {
+            className: 'content8-content',
+            children: '公司+职位 信息暂缺',
+          },
+        },
+      },
+      {
+        name: 'block5',
+        md: 6,
+        xs: 24,
+        className: 'content8-block-wrapper',
+        children: {
+          className: 'content8-block',
+          img: {
+            className: 'content8-img',
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+          },
+          title: { className: 'content8-title', children: 'Jack' },
+          content: {
+            className: 'content8-content',
+            children: '公司+职位 信息暂缺',
+          },
+        },
+      },
+      {
+        name: 'block6',
+        md: 6,
+        xs: 24,
+        className: 'content8-block-wrapper',
+        children: {
+          className: 'content8-block',
+          img: {
+            className: 'content8-img',
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+          },
+          title: { className: 'content8-title', children: 'Jack' },
+          content: {
+            className: 'content8-content',
+            children: '公司+职位 信息暂缺',
+          },
+        },
+      },
+      {
+        name: 'block7',
+        md: 6,
+        xs: 24,
+        className: 'content8-block-wrapper',
+        children: {
+          className: 'content8-block',
+          img: {
+            className: 'content8-img',
+            children:
+              'https://gw.alipayobjects.com/zos/rmsportal/JahzbVrdHdJlkJjkNsBJ.png',
+          },
+          title: { className: 'content8-title', children: 'Jack' },
+          content: {
+            className: 'content8-content',
+            children: '公司+职位 信息暂缺',
+          },
+        },
+      },
+    ],
+  },
+};
+export const Feature80DataSource = {
+  wrapper: { className: 'home-page-wrapper feature8-wrapper' },
+  page: { className: 'home-page feature8' },
+  OverPack: { playScale: 0.3 },
+  titleWrapper: {
+    className: 'feature8-title-wrapper',
+    children: [
+      { name: 'title', className: 'feature8-title-h1', children: '使用流程' },
+      {
+        name: 'content',
+        className: 'feature8-title-content',
+        children: '流程简单清晰，快速响应需求',
+      },
+    ],
+  },
+  childWrapper: {
+    className: 'feature8-button-wrapper',
+    children: [
+      {
+        name: 'button',
+        className: 'feature8-button',
+        children: { href: '#', children: '立即体验' },
+      },
+    ],
+  },
+  Carousel: {
+    dots: false,
+    className: 'feature8-carousel',
+    wrapper: { className: 'feature8-block-wrapper' },
+    children: {
+      className: 'feature8-block',
+      titleWrapper: {
+        className: 'feature8-carousel-title-wrapper',
+        title: { className: 'feature8-carousel-title' },
+      },
+      children: [
+        {
+          name: 'block0',
+          className: 'feature8-block-row',
+          gutter: 120,
+          title: {
+            className: 'feature8-carousel-title-block',
+            children: '平台自主训练流程',
+          },
+          children: [
+            {
+              className: 'feature8-block-col',
+              md: 6,
+              xs: 24,
+              name: 'child0',
+              arrow: {
+                className: 'feature8-block-arrow',
+                children:
+                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+              },
+              children: {
+                className: 'feature8-block-child',
+                children: [
+                  {
+                    name: 'image',
+                    className: 'feature8-block-image',
+                    children:
+                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
+                  },
+                  {
+                    name: 'title',
+                    className: 'feature8-block-title',
+                    children: '需求沟通',
+                  },
+                  {
+                    name: 'content',
+                    className: 'feature8-block-content',
+                    children: '沟通业务需求，对接人：诚凡、芸彩',
+                  },
+                ],
+              },
+            },
+            {
+              className: 'feature8-block-col',
+              md: 6,
+              xs: 24,
+              name: 'child1',
+              arrow: {
+                className: 'feature8-block-arrow',
+                children:
+                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+              },
+              children: {
+                className: 'feature8-block-child',
+                children: [
+                  {
+                    name: 'image',
+                    className: 'feature8-block-image',
+                    children:
+                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
+                  },
+                  {
+                    name: 'title',
+                    className: 'feature8-block-title',
+                    children: '需求沟通',
+                  },
+                  {
+                    name: 'content',
+                    className: 'feature8-block-content',
+                    children:
+                      '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
+                  },
+                ],
+              },
+            },
+            {
+              className: 'feature8-block-col',
+              md: 6,
+              xs: 24,
+              name: 'child2',
+              arrow: {
+                className: 'feature8-block-arrow',
+                children:
+                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+              },
+              children: {
+                className: 'feature8-block-child',
+                children: [
+                  {
+                    name: 'image',
+                    className: 'feature8-block-image',
+                    children:
+                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
+                  },
+                  {
+                    name: 'title',
+                    className: 'feature8-block-title',
+                    children: '需求沟通',
+                  },
+                  {
+                    name: 'content',
+                    className: 'feature8-block-content',
+                    children:
+                      '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
+                  },
+                ],
+              },
+            },
+            {
+              className: 'feature8-block-col',
+              md: 6,
+              xs: 24,
+              name: 'child3',
+              arrow: {
+                className: 'feature8-block-arrow',
+                children:
+                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+              },
+              children: {
+                className: 'feature8-block-child',
+                children: [
+                  {
+                    name: 'image',
+                    className: 'feature8-block-image',
+                    children:
+                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
+                  },
+                  {
+                    name: 'title',
+                    className: 'feature8-block-title',
+                    children: '需求沟通',
+                  },
+                  {
+                    name: 'content',
+                    className: 'feature8-block-content',
+                    children:
+                      '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
+                  },
+                ],
+              },
+            },
+          ],
+        },
+        {
+          name: 'block1',
+          className: 'feature8-block-row',
+          gutter: 120,
+          title: {
+            children: '平台自主训练流程',
+            className: 'feature8-carousel-title-block',
+          },
+          children: [
+            {
+              className: 'feature8-block-col',
+              md: 6,
+              xs: 24,
+              name: 'child0',
+              arrow: {
+                className: 'feature8-block-arrow',
+                children:
+                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+              },
+              children: {
+                className: 'feature8-block-child',
+                children: [
+                  {
+                    name: 'image',
+                    className: 'feature8-block-image',
+                    children:
+                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
+                  },
+                  {
+                    name: 'title',
+                    className: 'feature8-block-title',
+                    children: '需求沟通',
+                  },
+                  {
+                    name: 'content',
+                    className: 'feature8-block-content',
+                    children: '沟通业务需求，对接人：诚凡、芸彩',
+                  },
+                ],
+              },
+            },
+            {
+              className: 'feature8-block-col',
+              md: 6,
+              xs: 24,
+              name: 'child1',
+              arrow: {
+                className: 'feature8-block-arrow',
+                children:
+                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+              },
+              children: {
+                className: 'feature8-block-child',
+                children: [
+                  {
+                    name: 'image',
+                    className: 'feature8-block-image',
+                    children:
+                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
+                  },
+                  {
+                    name: 'title',
+                    className: 'feature8-block-title',
+                    children: '需求沟通',
+                  },
+                  {
+                    name: 'content',
+                    className: 'feature8-block-content',
+                    children:
+                      '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
+                  },
+                ],
+              },
+            },
+            {
+              className: 'feature8-block-col',
+              md: 6,
+              xs: 24,
+              name: 'child2',
+              arrow: {
+                className: 'feature8-block-arrow',
+                children:
+                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+              },
+              children: {
+                className: 'feature8-block-child',
+                children: [
+                  {
+                    name: 'image',
+                    className: 'feature8-block-image',
+                    children:
+                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
+                  },
+                  {
+                    name: 'title',
+                    className: 'feature8-block-title',
+                    children: '需求沟通',
+                  },
+                  {
+                    name: 'content',
+                    className: 'feature8-block-content',
+                    children:
+                      '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
+                  },
+                ],
+              },
+            },
+            {
+              className: 'feature8-block-col',
+              md: 6,
+              xs: 24,
+              name: 'child3',
+              arrow: {
+                className: 'feature8-block-arrow',
+                children:
+                  'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+              },
+              children: {
+                className: 'feature8-block-child',
+                children: [
+                  {
+                    name: 'image',
+                    className: 'feature8-block-image',
+                    children:
+                      'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
+                  },
+                  {
+                    name: 'title',
+                    className: 'feature8-block-title',
+                    children: '需求沟通',
+                  },
+                  {
+                    name: 'content',
+                    className: 'feature8-block-content',
+                    children:
+                      '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
+                  },
+                ],
+              },
+            },
+          ],
+        },
+      ],
+    },
+  },
+};
+export const Footer00DataSource = {
   wrapper: { className: 'home-page-wrapper footer0-wrapper' },
   OverPack: { className: 'home-page footer0', playScale: 0.05 },
   copyright: {

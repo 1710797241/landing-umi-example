@@ -3,20 +3,26 @@
 import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
-import Nav0 from './Nav0';
 import Banner0 from './Banner0';
+import Nav0 from './Nav0';
 import Content0 from './Content0';
 import Content1 from './Content1';
+import Content4 from './Content4';
 import Content3 from './Content3';
+import Teams4 from './Teams4';
+import Feature8 from './Feature8';
 import Footer0 from './Footer0';
 
 import {
-  Nav00DataSource,
   Banner00DataSource,
+  Nav00DataSource,
   Content00DataSource,
   Content10DataSource,
+  Content40DataSource,
   Content30DataSource,
-  Footer01DataSource,
+  Teams40DataSource,
+  Feature80DataSource,
+  Footer00DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
 
@@ -25,7 +31,7 @@ enquireScreen((b) => {
   isMobile = b;
 });
 
-const { location } = window;
+const { location = {} } = typeof window !== 'undefined' ? window : {};
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -56,16 +62,16 @@ export default class Home extends React.Component {
 
   render() {
     const children = [
-      <Nav0
-        id="Nav0_0"
-        key="Nav0_0"
-        dataSource={Nav00DataSource}
-        isMobile={this.state.isMobile}
-      />,
       <Banner0
         id="Banner0_0"
         key="Banner0_0"
         dataSource={Banner00DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Nav0
+        id="Nav0_0"
+        key="Nav0_0"
+        dataSource={Nav00DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content0
@@ -80,16 +86,34 @@ export default class Home extends React.Component {
         dataSource={Content10DataSource}
         isMobile={this.state.isMobile}
       />,
+      <Content4
+        id="Content4_0"
+        key="Content4_0"
+        dataSource={Content40DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Content3
         id="Content3_0"
         key="Content3_0"
         dataSource={Content30DataSource}
         isMobile={this.state.isMobile}
       />,
+      <Teams4
+        id="Teams4_0"
+        key="Teams4_0"
+        dataSource={Teams40DataSource}
+        isMobile={this.state.isMobile}
+      />,
+      <Feature8
+        id="Feature8_0"
+        key="Feature8_0"
+        dataSource={Feature80DataSource}
+        isMobile={this.state.isMobile}
+      />,
       <Footer0
-        id="Footer0_1"
-        key="Footer0_1"
-        dataSource={Footer01DataSource}
+        id="Footer0_0"
+        key="Footer0_0"
+        dataSource={Footer00DataSource}
         isMobile={this.state.isMobile}
       />,
     ];
